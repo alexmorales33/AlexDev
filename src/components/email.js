@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { email } from '@config';
 import { Side } from '@components';
 import styled from 'styled-components';
 import { theme } from '@styles';
@@ -37,7 +36,7 @@ const StyledEmailLink = styled.a`
 const Email = ({ isHome }) => (
   <Side isHome={isHome} orientation="right">
     <StyledLinkWrapper>
-      <StyledEmailLink href={`mailto:${email}`}>{email}</StyledEmailLink>
+      <StyledEmailLink>+54 9 011 6134-0991</StyledEmailLink>
     </StyledLinkWrapper>
   </Side>
 );
