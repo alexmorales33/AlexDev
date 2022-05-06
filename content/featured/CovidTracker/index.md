@@ -3,6 +3,7 @@ date: '3'
 title: 'Crypto Market'
 cover: 'cryptomarkett.jpg'
 external: 'https://crypto-market-sage.vercel.app/'
+github: 'https://github.com/alexmorales33/CryptoMarket'
 tech:
   - React
   - Styled-Components

@@ -3,6 +3,7 @@ date: '1'
 title: 'Caminarte App'
 cover: 'caminarte.jpg'
 external: 'https://caminarte.vercel.app/'
+github: 'https://github.com/alexmorales33/CaminArte'
 tech:
   - HTML
   - CSS

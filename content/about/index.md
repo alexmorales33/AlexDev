@@ -12,7 +12,7 @@ skills:
 ---
 
 Hello, my name is Alex. I live in Buenos Aires, Argentina. 
-I am a 20-year-old student of the Web Development career at the University of La Matanza.
+I am a student of the Web Development career at the University of La Matanza.
 
 I like to learn constantly, and that presented with challenges to find their possible solution in order to achieve the collective and project objective.
 

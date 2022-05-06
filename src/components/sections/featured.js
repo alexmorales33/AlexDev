@@ -6,6 +6,7 @@ import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import { FormattedIcon } from '@components/icons';
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -193,7 +194,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, cover } = frontmatter;
+            const { external, title, tech, cover, github } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -219,7 +220,17 @@ const Featured = ({ data }) => {
                       ))}
                     </StyledTechList>
                   )}
-                  
+                  <StyledLinkWrapper>
+                    {github && (
+                      <a
+                        href={github}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        aria-label="GitHub Link">
+                        <FormattedIcon name="GitHub" />
+                      </a>
+                    )}
+                  </StyledLinkWrapper>
                 </StyledContent>
 
                 <StyledImgContainer

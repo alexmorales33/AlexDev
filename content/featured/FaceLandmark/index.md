@@ -3,8 +3,10 @@ date: '4'
 title: 'Movies App Eras'
 cover: 'eras.jpg'
 external: 'https://eras-app.vercel.app/'
+github: 'https://github.com/alexmorales33/ErasApp'
 tech:
   - React
+  - Redux
   - Sass
 
 showInProjects: true
