@@ -1,7 +1,7 @@
 ---
 title: 'Hello! I am'
 name: 'Alex Morales'
-subtitle: 'Front-end Developer'
+subtitle: 'FullStack Developer'
 buttonText: 'Mail Me'
 ---
 
