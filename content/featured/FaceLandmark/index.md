@@ -5,7 +5,7 @@ cover: 'eras.jpg'
 external: 'https://eras-app.vercel.app/'
 github: 'https://github.com/alexmorales33/ErasApp'
 tech:
-  - React
+  - ReactJs
   - Redux
   - Sass
 
@@ -13,4 +13,4 @@ showInProjects: true
 ---
 
 
-Application of Movies and TV Series. Interacting and rendering an API, allowing us to see details about it. (Rating, Casting, Synopsis, etc).
+Application of Movies and TV Series. Interacting and rendering the information inside theMovieDbApi, allowing us to see details about it. (Rating, Casting, Synopsis, etc).
