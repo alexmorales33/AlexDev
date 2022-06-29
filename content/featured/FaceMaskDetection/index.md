@@ -14,4 +14,4 @@ showInProjects: true
 ---
 
 
-Personal budget management application. It allows you to create and edit income and expenses of money, and display a balance resulting from the registered operations.
+Personal budget management application. It allows you to create and edit income and expenses of money, and to show a balance resulting from the registered operations. All these changes are reflected in the database.
