@@ -1,8 +1,8 @@
 ---
 title: 'Hello! I am'
 name: 'Alex Morales'
-subtitle: 'Frontend Developer'
+subtitle: 'FullStack Js Developer'
 buttonText: 'Mail Me'
 ---
 
-I'm a student of the Web Development career at the University of La Matanza with the desire to continue learning new things constantly.
+I'm a Full Stack and AR Developer and study Web and Application Development at the University of La Matanza with the desire to continue learning new things constantly.
